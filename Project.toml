@@ -1,0 +1,13 @@
+name = "NeutrinoEventGenerator"
+uuid = "4de8fb74-bc4f-4773-bb0e-14eb87f9a44e"
+authors = ["Christian Haack <chr.hck@gmail.com>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
