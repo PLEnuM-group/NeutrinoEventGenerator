@@ -3,7 +3,33 @@ uuid = "4de8fb74-bc4f-4773-bb0e-14eb87f9a44e"
 authors = ["Christian Haack <chr.hck@gmail.com>"]
 version = "1.0.0-DEV"
 
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PhysicsTools = "aacfb283-0df6-49c4-85a4-270b72c3b0a9"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
 [compat]
+DataFrames = "1.7.0"
+Distributions = "0.25.117"
+HDF5 = "0.17.2"
+LinearAlgebra = "1.11.0"
+PhysicsTools = "0.8.2"
+Random = "1.11.0"
+Reexport = "1.2.2"
+Rotations = "1.7.1"
+StaticArrays = "1.9.12"
+StatsBase = "0.34.4"
+StructTypes = "1.11.0"
+UUIDs = "1.11.0"
 julia = "1.11"
 
 [extras]
